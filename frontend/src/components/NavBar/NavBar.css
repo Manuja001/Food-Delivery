@@ -5,8 +5,12 @@
   justify-items: center;
 }
 .navbar .logo {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
+  transition: all 0.3s ease;
+}
+.navbar .logo:hover {
+  transform: scale(1.1);
 }
 .navbar-menu {
   display: flex;
