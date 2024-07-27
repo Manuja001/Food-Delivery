@@ -2,6 +2,9 @@ import Logo from "./logo.png";
 import search_icon from "./search_icon.png";
 import shopping_cart from "./shopping_cart.png";
 import star_rating from "./star_rating.png";
+import add_icon_white from "./add_icon_white.png";
+import add_icon_green from "./add_icon_green.png";
+import remove_icon_red from "./remove_icon_red.png";
 import menu_1 from "./menu_1.jpg";
 import menu_2 from "./menu_2.jpg";
 import menu_3 from "./menu_3.jpg";
@@ -14,12 +17,17 @@ import food_1 from "./food_1.png";
 import food_2 from "./food_2.jpg";
 import food_3 from "./food_3.jpg";
 import food_4 from "./food_4.jpg";
+import food_5 from "./food_5.jpg";
+import food_6 from "./food_6.jpg";
 
 export const assets = {
   Logo,
   search_icon,
   shopping_cart,
   star_rating,
+  add_icon_white,
+  add_icon_green,
+  remove_icon_red,
 };
 
 export const food_list = [
@@ -54,6 +62,22 @@ export const food_list = [
     price: 10.99,
     discription: "Deviled Chicken wings with fries",
     category: "Chicken",
+  },
+  {
+    id: 5,
+    name: "Chocolate mousse",
+    image: food_5,
+    price: 5.99,
+    discription: "Chocolate mousse with cream",
+    category: "Desserts",
+  },
+  {
+    id: 6,
+    name: "Strawberry ice cream",
+    image: food_6,
+    price: 3.99,
+    discription: "Strawberry ice cream & chocolate sauce",
+    category: "Desserts",
   },
 ];
 
