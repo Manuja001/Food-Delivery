@@ -17,8 +17,8 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/place-order" element={<PlaceOrder />} />
         </Routes>
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }

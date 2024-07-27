@@ -5,6 +5,10 @@ import star_rating from "./star_rating.png";
 import add_icon_white from "./add_icon_white.png";
 import add_icon_green from "./add_icon_green.png";
 import remove_icon_red from "./remove_icon_red.png";
+import Facebook from "./Facebook.png";
+import LinkedIn from "./LinkedIn.png";
+import Twitter from "./Twitter.png";
+import Instagram from "./Instagram.png";
 import menu_1 from "./menu_1.jpg";
 import menu_2 from "./menu_2.jpg";
 import menu_3 from "./menu_3.jpg";
@@ -28,6 +32,10 @@ export const assets = {
   add_icon_white,
   add_icon_green,
   remove_icon_red,
+  Facebook,
+  LinkedIn,
+  Twitter,
+  Instagram,
 };
 
 export const food_list = [
