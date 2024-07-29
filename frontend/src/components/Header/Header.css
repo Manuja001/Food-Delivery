@@ -1,10 +1,10 @@
 .header {
-  height: 35vw;
+  height: 45vw;
   margin: 30px 0;
-  background-image: url("../../../public/Header_1.jpg");
+  background-image: url("../../../public/Header_6.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center bottom;
+  background-position: center top;
   position: relative;
 }
 
@@ -15,7 +15,7 @@
   align-items: start;
   max-width: 50%;
   gap: 1.5vw;
-  bottom: 10%;
+  bottom: 20%;
   left: 6vw;
   animation: fadeIn 3s ease;
 }

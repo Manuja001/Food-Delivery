@@ -9,6 +9,7 @@ import Facebook from "./Facebook.png";
 import LinkedIn from "./LinkedIn.png";
 import Twitter from "./Twitter.png";
 import Instagram from "./Instagram.png";
+import cross_icon from "./cross_icon.png";
 import menu_1 from "./menu_1.jpg";
 import menu_2 from "./menu_2.jpg";
 import menu_3 from "./menu_3.jpg";
@@ -36,6 +37,7 @@ export const assets = {
   LinkedIn,
   Twitter,
   Instagram,
+  cross_icon,
 };
 
 export const food_list = [
