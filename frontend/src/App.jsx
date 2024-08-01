@@ -11,7 +11,7 @@ function App() {
   const [showLogin, setShowLogin] = useState(false);
 
   return (
-    <div>
+    <>
       {showLogin ? <LoginPopup setShowLogin={setShowLogin} /> : <></>}
       <div className="App">
         <NavBar setShowLogin={setShowLogin} />
@@ -23,7 +23,7 @@ function App() {
         </Routes>
       </div>
       <Footer />
-    </div>
+    </>
   );
 }
 

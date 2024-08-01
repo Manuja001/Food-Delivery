@@ -9,7 +9,9 @@ function NavBar({ setShowLogin }) {
 
   return (
     <div className="navbar">
-      <img src={assets.Logo} alt="Logo" className="logo" />
+      <Link to={"/"}>
+        <img src={assets.Logo} alt="Logo" className="logo" />
+      </Link>
       <ul className="navbar-menu">
         <Link
           to={"/"}
@@ -36,11 +38,13 @@ function NavBar({ setShowLogin }) {
       <div className="navbar-right">
         <img src={assets.search_icon} alt="Search" />
         <div className="navbar-search-icon">
-          <img
-            src={assets.shopping_cart}
-            alt="Shopping Cart"
-            className="shopping-cart"
-          />
+          <Link to={"/cart"}>
+            <img
+              src={assets.shopping_cart}
+              alt="Shopping Cart"
+              className="shopping-cart"
+            />
+          </Link>
           <div className="dot"></div>
         </div>
         <button onClick={() => setShowLogin(true)}>Sign in</button>

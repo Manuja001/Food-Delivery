@@ -7,6 +7,7 @@ export const storeContext = createContext(null);
 const storeContextProvider = (props) => {
   const contextValue = {
     food_list,
+    cartItems: [],
   };
   return (
     <storeContext.Provider value={contextValue}>

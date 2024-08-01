@@ -1,0 +1,18 @@
+.cart-items-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-top: 25px;
+}
+.cart-items-title button {
+  background-color: transparent;
+  border: 2px solid tomato;
+  padding: 5px 10px;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+.cart-items-title button:hover {
+  background-color: tomato;
+  color: white;
+}

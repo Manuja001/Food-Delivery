@@ -1,0 +1,28 @@
+.place-order {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 50px;
+}
+.place-order-left {
+  width: 100%;
+  max-width: max(30%, 500px);
+}
+.place-order-left .title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.place-order-left input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(177, 176, 176);
+  margin-bottom: 20px;
+  border-radius: 5px;
+  outline-color: tomato;
+}
+.place-order-left .multi-feilds {
+  display: flex;
+  gap: 10px;
+}
